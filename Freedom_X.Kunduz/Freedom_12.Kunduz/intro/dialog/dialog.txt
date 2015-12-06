@@ -1,0 +1,9 @@
+/* #Meredy
+$[
+	1.063,
+	["Intro_Kunduz",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,0],
+	[1200,"tf47_logo",[1,"pics\taskforce47.paa",["0.314379 * safezoneW + safezoneX","0.12962 * safezoneH + safezoneY","0.371242 * safezoneW","0.341139 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1100,"presents_layer",[1,"<t align='center'> Presents< /t>",["0.458751 * safezoneW + safezoneX","0.466986 * safezoneH + safezoneY","0.0928105 * safezoneW","0.044018 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","1"],[]],
+	[1201,"missionname_layer",[1,"pics\insurgency_kunduz.paa",["0.279715 * safezoneW + safezoneX","0.492783 * safezoneH + safezoneY","0.443428 * safezoneW","0.308126 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]]
+]
+*/

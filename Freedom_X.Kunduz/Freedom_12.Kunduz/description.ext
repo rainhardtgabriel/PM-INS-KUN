@@ -1,0 +1,78 @@
+//-------------------------------------------LOADING INFO--------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+author = "John Hunter"; 
+onLoadName = "[TF47] Insurgency 1.5.5"; 
+onLoadMission = "for more Information taskforce47.de"; 
+loadScreen = "loading.paa";
+overviewPicture = "";
+overviewText = "";
+overviewTextLocked = "";
+
+
+
+//-------------------------------------------SPAWN AND RESPAWN SETTINGS------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+respawn = 3;									//Respawn at base, Marker "respawn_<SIDE>"
+respawnDelay = 60;								//seconds
+respawnVehicleDelay = 30;						//seconds
+//respawnTemplatesWest[] = {"MenuPosition"};
+//respawnTemplatesEast[] = {"MenuPosition"};
+//respawnTemplatesGuer[] = {"MenuPosition"};
+
+respawnOnStart = -1;
+disabledAI = 1;
+joinUnassigned = 0;
+aiKills  = 1;
+
+enableDebugConsole = 1;							//Console available in SP and for hosts / logged in admins
+
+corpseManagerMode = 1;
+
+corpseLimit = 30;
+corpseRemovalMinTime = 300; 					//seconds
+corpseRemovalMaxTime = 600; 					//seconds
+
+wreckLimit = 10;
+wreckRemovalMinTime = 300; 						//seconds
+wreckRemovalMaxTime = 600; 						//seconds
+
+disableChannels[]={,2,6}; 						//0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System
+
+//-------------------------------------------GAMETYPE------------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1; 
+	maxPlayers = 154;
+};
+
+
+
+//-------------------------------------------Mission Start Parameter---------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class CfgFunctions
+{
+		#include "Caches\functions.hpp"	
+		#include "Intel\functions.hpp"	
+		#include "tf47CoreScripts\UMenu\Functions.hpp"
+        #include "tf47CoreScripts\tf47CfgFunctions.hpp"
+		
+};
+
+class Extended_Init_EventHandlers {
+ 	class Man {
+  		init = "if(isServer) then {_unit = _this select 0; if ((_unit isKindOf 'Man') and (format ['%1',(side _unit)] == 'EAST')) then {[_unit] call TF_fnc_Intel_give;};};";
+	};
+};
+
+#include "ZadeServicePoint\include\description.hpp"
+#include "tf47CoreScripts\UMenu\Description.hpp"
+//---------------------------------------------Intro Defines and Dialog ----------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include "intro\dialog\defines.hpp"
+#include "intro\dialog\dialog.hpp"
