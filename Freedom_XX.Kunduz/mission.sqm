@@ -89,7 +89,8 @@ class Mission
 		"rhsusf_c_troops",
 		"UK3CB_BAF_Units_MTP",
 		"cba_enable_auto_xeh",
-		"A3_Soft_F_Quadbike"
+		"A3_Soft_F_Quadbike",
+		"A3_Supplies_F_Heli_CargoNets"
 	};
 	addOnsAuto[]=
 	{
@@ -177,6 +178,7 @@ class Mission
 		"BWA3_Puma",
 		"BWA3_Flag",
 		"A3_Soft_F_Quadbike",
+		"A3_Supplies_F_Heli_CargoNets",
 		"pra3_kz"
 	};
 	randomSeed=11679117;
@@ -4992,7 +4994,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=758;
+		items=760;
 		class Item0
 		{
 			position[]={5003.1846,4.9808497,1423.5082};
@@ -12381,6 +12383,28 @@ class Mission
 			skill=0.60000002;
 			text="medicbox_01_1";
 			init="_Handle = this execVM ""scripts\medicbox.sqf"";";
+		};
+		class Item758
+		{
+			position[]={5000.5215,4.9342127,1404.9281};
+			azimut=28.761299;
+			id=954;
+			side="EMPTY";
+			vehicle="B_CargoNet_01_ammo_F";
+			skill=0.60000002;
+			text="vehicleAmmo";
+			init="_Handle = this execVM ""scripts\vehicleAmmo.sqf"";";
+		};
+		class Item759
+		{
+			position[]={43.601669,61.961521,601.93823};
+			azimut=37.754082;
+			id=955;
+			side="EMPTY";
+			vehicle="B_CargoNet_01_ammo_F";
+			skill=0.60000002;
+			text="vehicleAmmo_1";
+			init="_Handle = this execVM ""scripts\vehicleAmmo.sqf"";";
 		};
 	};
 	class Markers
