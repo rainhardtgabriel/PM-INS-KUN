@@ -5,7 +5,7 @@ if (isServer) then {
                 //select random Cache
                 _cache = [Cache1,Cache2,Cache3,Cache4] call BIS_fnc_selectRandom;
  
-                while {(count (_cache getVariable ["TF_IntelMarker",[]]) == 18) or (isNull _Cache)} do {
+                while {(count (_cache getVariable ["TF_IntelMarker",[]]) == 18) or (isNull _Cache) or (!alive _cache)} do {
                         _cache = [Cache1,Cache2,Cache3,Cache4] call BIS_fnc_selectRandom;
                 };
  
@@ -65,7 +65,7 @@ if (isServer) then {
  
                 //update Variable
                 _oldMarker pushBack _marker;
-                _cache setVariable ["TF_IntelMarker",_oldMarker];
+                _cache setVariable ["TF_IntelMarker",_oldMarker,true];
         };
  
 } else {

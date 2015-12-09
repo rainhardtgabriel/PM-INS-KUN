@@ -33,7 +33,3 @@ switch (faction (_this select 0)) do {
 };
 //Every Unit spawning gets introCamride
 intro = execVM "intro\videointro.sqf";
-
-if(typeOf (_this select 0) == "rhsusf_army_ocp_medic" || typeOf (_this select 0) == "rhsusf_navy_marpat_d_medic" || typeOf (_this select 0) == "UK3CB_BAF_HeliMedic_MTP" || typeOf (_this select 0) == "UK3CB_BAF_Medic_MTP" || typeOf (_this select 0) == "BWA3_CombatLifeSaver_Tropen")  then {
-    (_this select 0) addAction["<t color='#FF0000'>HLW/CPR</t>", "scripts\cpr.sqf", _this select 0];
-};

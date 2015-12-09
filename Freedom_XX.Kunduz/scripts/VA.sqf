@@ -210,7 +210,7 @@
 "B_AssaultPack_rgr",
 "B_AssaultPack_mcamo",
 "B_AssaultPack_blk",
-"I_UAV_01_backpack_F",
+"B_UAV_01_backpack_F",
 "rhsusf_assault_eagleaiii_ocp",
 "rhsusf_assault_eagleaiii_ucp",
 "B_Static_Designator_01_weapon_F",
