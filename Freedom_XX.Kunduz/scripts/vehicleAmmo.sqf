@@ -14,8 +14,8 @@ while {true} do
 {
 
 	// Clear box
-	clearWeaponCargo _this;
-	clearMagazineCargo _this;
+	clearWeaponCargoGlobal _this;
+	clearMagazineCargoGlobal _this;
 	clearItemCargoGlobal _this;
 	clearBackpackCargoGlobal _this;
 	

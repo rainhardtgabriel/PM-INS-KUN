@@ -90,7 +90,8 @@ class Mission
 		"cba_enable_auto_xeh",
 		"A3_Soft_F_Quadbike",
 		"ace_map_gestures",
-		"A3_Supplies_F_Heli_CargoNets"
+		"A3_Supplies_F_Heli_CargoNets",
+		"3DEN"
 	};
 	addOnsAuto[]=
 	{
@@ -103,6 +104,7 @@ class Mission
 		"A3_Modules_F_Heli_SpawnAi",
 		"cba_main",
 		"task_force_radio_items",
+		"3DEN",
 		"a3_modules_f_curator_curator",
 		"alive_mil_opcom",
 		"alive_sys_playeroptions",
@@ -5678,14 +5680,14 @@ class Mission
 		class Item61
 		{
 			position[]={5016.835,5.034215,1429.4393};
-			azimut=-19.67602;
+			azimut=-19.676001;
 			offsetY=0.69999999;
 			id=258;
 			side="EMPTY";
 			vehicle="ACE_medicalSupplyCrate_advanced";
 			skill=0.60000002;
 			text="medicbox_01";
-      		init="_Handle = this execVM ""scripts\medicbox.sqf"";";
+			init="_Handle = this execVM ""scripts\medicbox.sqf""; [this, false] call ace_dragging_fnc_setDraggable;  [this, false] call ace_dragging_fnc_setCarryable;";
 		};
 		class Item62
 		{
@@ -7785,11 +7787,12 @@ class Mission
 		class Item279
 		{
 			position[]={5013.2944,5.0233574,1430.8905};
-			azimut=250.69687;
+			azimut=250.69701;
 			id=476;
 			side="EMPTY";
 			vehicle="Land_Cargo40_sand_F";
 			skill=0.60000002;
+			init="[this, 0, [""ACE_Interaction_MainAction""]] call ace_interact_menu_fnc_removeActionFromObject;";
 		};
 		class Item280
 		{
@@ -11492,14 +11495,14 @@ class Mission
 		class Item666
 		{
 			position[]={71.410019,61.406868,579.71027};
-			azimut=-0.071579196;
+			azimut=-0.071579203;
 			offsetY=0.69999999;
 			id=863;
 			side="EMPTY";
 			vehicle="ACE_medicalSupplyCrate_advanced";
 			skill=0.60000002;
 			text="medicbox_02";
-      		init="_Handle = this execVM ""scripts\medicbox.sqf"";";
+			init="_Handle = this execVM ""scripts\medicbox.sqf""; [this, false] call ace_dragging_fnc_setDraggable;  [this, false] call ace_dragging_fnc_setCarryable;";
 		};
 		class Item667
 		{
@@ -12463,18 +12466,18 @@ class Mission
 			vehicle="B_CargoNet_01_ammo_F";
 			skill=0.60000002;
 			text="vehicleAmmo";
-			init="_Handle = this execVM ""scripts\vehicleAmmo.sqf"";";
+			init="_Handle = this execVM ""scripts\vehicleAmmo.sqf""; [this, false] call ace_dragging_fnc_setDraggable;  [this, false] call ace_dragging_fnc_setCarryable;";
 		};
 		class Item759
 		{
 			position[]={43.601669,61.961521,601.93823};
-			azimut=37.754082;
+			azimut=37.754101;
 			id=956;
 			side="EMPTY";
 			vehicle="B_CargoNet_01_ammo_F";
 			skill=0.60000002;
 			text="vehicleAmmo_1";
-			init="_Handle = this execVM ""scripts\vehicleAmmo.sqf"";";
+			init="_Handle = this execVM ""scripts\vehicleAmmo.sqf""; [this, false] call ace_dragging_fnc_setDraggable;  [this, false] call ace_dragging_fnc_setCarryable;";
 		};
 	};
 	class Markers
