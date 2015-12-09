@@ -322,6 +322,7 @@
                         "BWA3_optic_Shortdot",
                         "BWA3_optic_24x72",
                         "BWA3_optic_ZO4x30",
+						"BWA3_optic_ZO4x30_NSV",
                         "BWA3_acc_VarioRay_irlaser",
                         "BWA3_acc_LLM01_irlaser",
                         "acc_flashlight",

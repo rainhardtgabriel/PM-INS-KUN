@@ -29,7 +29,6 @@ if (hasInterface) then {
 		closeDialog 1;
 		_ok1 = createDialog "mission_dialog";
 		#define _ok1 2
-		_display displayRemoveEventHandler ["KeyDown",Spacebar_pressed];
 		_display = findDisplay 5001;
 		Spacebar_pressed =	_display displayAddEventHandler ["KeyDown",{_this execVM "intro\killintro.sqf"}];
 		// Fahrt nach oben
@@ -57,5 +56,4 @@ if (hasInterface) then {
 		Player cameraEffect ["terminate","back"];
 		titleText ["","BLACK IN",0];
 		camDestroy _camera;
-		_display displayRemoveEventHandler ["KeyDown",Spacebar_pressed];
 };

@@ -84,7 +84,7 @@
 "UK3CB_BAF_1Rnd_81mm_Mo_Flare_white",
 "UK3CB_BAF_1Rnd_81mm_Mo_Smoke_white",
 "UK3CB_BAF_1Rnd_81mm_Mo_shells", 
-"UK3CB_BAF_150Rnd_762x51_Box",        
+"UK3CB_BAF_150Rnd_762x51_Box",
 
 		 
 //PISTOL AMMO
@@ -185,7 +185,7 @@
 "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D",
 "UK3CB_BAF_B_Bergen_MTP_Sapper_H_A",
 "UK3CB_BAF_B_Bergen_MTP_Sapper_L_A",
-"I_UAV_01_backpack_F",
+"B_UAV_01_backpack_F",
 "B_Static_Designator_01_weapon_F",
 "B_Parachute",
 "ACE_TacticalLadder_Pack",

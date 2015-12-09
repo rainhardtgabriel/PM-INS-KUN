@@ -14,8 +14,8 @@ switch (_key) do
 		titleText ["Intro Abgebrochen","BLACK IN",2];titleFadeout 2;
 		camDestroy _camera;
 		player setVariable["IntroCam",nil];
-		_display_1 displayRemoveEventHandler ["KeyDown",spacebar_pressed];
-		_display_2 displayRemoveEventHandler ["KeyDown",spacebar_pressed];
+//		_display_1 displayRemoveEventHandler ["KeyDown",spacebar_pressed];
+//		_display_2 displayRemoveEventHandler ["KeyDown",spacebar_pressed];
 		if (dialog) then {
 			closeDialog 1;
 			closeDialog 2;
