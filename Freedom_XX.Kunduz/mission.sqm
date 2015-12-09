@@ -89,7 +89,8 @@ class Mission
 		"UK3CB_BAF_Units_MTP",
 		"cba_enable_auto_xeh",
 		"A3_Soft_F_Quadbike",
-		"ace_map_gestures"
+		"ace_map_gestures",
+		"A3_Supplies_F_Heli_CargoNets"
 	};
 	addOnsAuto[]=
 	{
@@ -12508,6 +12509,28 @@ class Mission
 			text="v25";
 			init="veh = [this, 1800, 3600, """", ""b_motor_inf"", ""ColorBrown"", WEST, """", 1, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf""; if(isServer) then { clearBackpackCargoGlobal this; clearWeaponCargoGlobal this;          clearMagazineCargoGlobal this;         clearItemCargoGlobal this; };";
 		};
+		class Item758
+    	{
+   		  position[]={5000.5215,4.9342127,1404.9281};
+   		  azimut=28.761299;
+   		  id=954;
+   		  side="EMPTY";
+   		  vehicle="B_CargoNet_01_ammo_F";
+   		  skill=0.60000002;
+   		  text="vehicleAmmo";
+   		  init="_Handle = this execVM ""scripts\vehicleAmmo.sqf"";";
+   		};
+   		class Item759
+   		{
+   		  position[]={43.601669,61.961521,601.93823};
+   		  azimut=37.754082;
+   		  id=955;
+   		  side="EMPTY";
+   		  vehicle="B_CargoNet_01_ammo_F";
+   		  skill=0.60000002;
+   		  text="vehicleAmmo_1";
+   		  init="_Handle = this execVM ""scripts\vehicleAmmo.sqf"";";
+   		};
 	};
 	class Markers
 	{
