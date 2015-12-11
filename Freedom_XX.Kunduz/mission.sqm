@@ -184,7 +184,7 @@ class Mission
 	randomSeed=11679117;
 	class Intel
 	{
-		briefingName="Insurgency Kunduz v.1.5.5";
+		briefingName="Insurgency Kunduz v.1.5.6";
 		overviewText="For more Information visit http://taskforce47.de";
 		startWeather=0.29999998;
 		startWind=0.099999994;
