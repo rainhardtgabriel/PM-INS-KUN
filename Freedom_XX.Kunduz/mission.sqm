@@ -90,8 +90,7 @@ class Mission
 		"cba_enable_auto_xeh",
 		"A3_Soft_F_Quadbike",
 		"ace_map_gestures",
-		"A3_Supplies_F_Heli_CargoNets",
-		"3DEN"
+		"A3_Supplies_F_Heli_CargoNets"
 	};
 	addOnsAuto[]=
 	{
@@ -104,7 +103,6 @@ class Mission
 		"A3_Modules_F_Heli_SpawnAi",
 		"cba_main",
 		"task_force_radio_items",
-		"3DEN",
 		"a3_modules_f_curator_curator",
 		"alive_mil_opcom",
 		"alive_sys_playeroptions",
@@ -7792,7 +7790,6 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Cargo40_sand_F";
 			skill=0.60000002;
-			init="[this, 0, [""ACE_Interaction_MainAction""]] call ace_interact_menu_fnc_removeActionFromObject;";
 		};
 		class Item280
 		{
