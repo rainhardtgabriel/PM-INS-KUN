@@ -90,7 +90,8 @@ class Mission
 		"cba_enable_auto_xeh",
 		"A3_Soft_F_Quadbike",
 		"ace_map_gestures",
-		"A3_Supplies_F_Heli_CargoNets"
+		"A3_Supplies_F_Heli_CargoNets",
+		"3DEN"
 	};
 	addOnsAuto[]=
 	{
@@ -103,6 +104,7 @@ class Mission
 		"A3_Modules_F_Heli_SpawnAi",
 		"cba_main",
 		"task_force_radio_items",
+		"3DEN",
 		"a3_modules_f_curator_curator",
 		"alive_mil_opcom",
 		"alive_sys_playeroptions",
@@ -184,7 +186,7 @@ class Mission
 	randomSeed=11679117;
 	class Intel
 	{
-		briefingName="Insurgency Kunduz v.1.5.6";
+		briefingName="Insurgency Kunduz v.1.6.1";
 		overviewText="For more Information visit http://taskforce47.de";
 		startWeather=0.29999998;
 		startWind=0.099999994;
