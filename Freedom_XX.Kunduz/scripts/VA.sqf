@@ -329,6 +329,9 @@
 "rhsusf_patrolcap_ucp",
 "H_PilotHelmetFighter_B",
 "tf47_beret",
+"rhsusf_hgu56p",
+"rhsusf_hgu56p_mask",
+"RHS_jetpilot_usaf",
 
 "crye_airframe_tan_AF_Empty",
 "crye_airframe_blk_AF_Empty",

@@ -175,7 +175,7 @@
                         "BWA3_Uniform2_idz_Tropen",
                         "BWA3_Uniform3_idz_Tropen",
                         "BWA3_Uniform_Crew_Tropen",
- 
+						"BWA3_Uniform_Helipilot",
  
  
                         //VESTS
@@ -199,6 +199,7 @@
 						
  
                         //HEADGEAR
+						"BWA3_Knighthelm",
                         "H_CrewHelmetHeli_B",
                         "H_PilotHelmetHeli_B",
                         "tf47_beret",

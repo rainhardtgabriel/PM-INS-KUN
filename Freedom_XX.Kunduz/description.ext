@@ -2,7 +2,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 author = "John Hunter"; 
-onLoadName = "[TF47] Insurgency 1.6.2"; 
+onLoadName = "[TF47] Insurgency 1.6.3"; 
 onLoadMission = "for more Information taskforce47.de"; 
 loadScreen = "loading.paa";
 overviewPicture = "";
